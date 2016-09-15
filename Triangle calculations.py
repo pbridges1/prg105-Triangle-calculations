@@ -1,9 +1,9 @@
 def is_triangle(a, b, c):
     if a > b + c:
         print("NO")
-    if b > a + c:
+    elif b > a + c:
         print("NO")
-    if c > a + b:
+    elif c > a + b:
         print("NO")
     else:
         print("Yes")
